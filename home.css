@@ -1,21 +1,43 @@
-<<<<<<< HEAD
-.logo{
-    width:15%;
-    float:left;
-    padding: 20px;
-}
-.title{
-    float:right;
-    padding-top:50px;
-    width: 80%;
-}
-.contentWrapper {
-	max-width: 1250px;
-	margin: 0 auto;	
-}
-=======
 /* Amanda */
+.title{
+    padding-top: 5px;
+    width: 600px;
+    height:60px;
+    max-height:15%;
+    max-width:600px;
+    align-content: center;
+}
+.material-icons{
+    color:black;
+    padding-top: .25%;
+    float:left;
+}
+.topnav{
+    color:black;
+    text-decoration: bold;
+}
+.banner {
+    width:100%;
+    height:600px;
+    border-top: 5px solid #ffbf00;
+    border-bottom: 5px solid #ffbf00;
+}
+div.transbox {
+    margin-top: -580px;
+    text-align: center;
+    height:90px;
+    background-color: #ffffff;
+}
 
-<style>
-</style>
->>>>>>> 088ccb690f4c0446bddcea7a9ebd385260e74606
+div.transbox a{
+    margin: 5%;
+    font-weight: bold;
+    color: #ffbf00;
+    font-size:40px;
+    font-family:Bahnschrift Condensed;
+    text-transform:uppercase;
+    letter-spacing:5px;
+}
+div.transbox a:hover{
+    text-shadow: 1px 1px #ffbf00;
+}
