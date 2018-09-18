@@ -1,2 +1,14 @@
-<style>
-</style>
+.logo{
+    width:15%;
+    float:left;
+    padding: 20px;
+}
+.title{
+    float:right;
+    padding-top:50px;
+    width: 80%;
+}
+.contentWrapper {
+	max-width: 1250px;
+	margin: 0 auto;	
+}
