@@ -1,6 +1,6 @@
 /* Sarah */
 
-.h1 {
+h1 {
     text-align: center;
 }
 
@@ -11,9 +11,17 @@
 }
 
 .contact_form {
-    margin: 10px;
+    margin: 30px 10px 10px 10px;
     display: block;
     width: 100%;
     text-align: center;
     border: 1px solid gray;
+}
+
+.blurb {
+    text-align: center;
+}
+
+.btn waves-effect waves-light {
+    color: blue;
 }
