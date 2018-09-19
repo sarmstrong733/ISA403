@@ -1,5 +1,9 @@
 /* Sarah */
 
+h2 {
+    text-align: center;
+}
+
 .video_container {
     margin: 0 auto;
     display: block;

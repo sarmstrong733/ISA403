@@ -1,7 +1,12 @@
 /* Sarah */
 
-h1 {
+h1, h2, h5, p, form {
     text-align: center;
+}
+
+p {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .logo-img {
@@ -9,19 +14,27 @@ h1 {
     max-width: 50px;
     padding: 5px;
 }
-
-.contact_form {
+/*.contact_form {
     margin: 30px 10px 10px 10px;
     display: block;
     width: 100%;
     text-align: center;
-    border: 1px solid gray;
+    border: 1px solid gray; */
 }
 
-.blurb {
+body {
     text-align: center;
 }
 
-.btn waves-effect waves-light {
-    color: blue;
+form {
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+.contact_form {
+    Padding: 30px;
+}
+
+.text-area {
+    padding: 20px;
 }
