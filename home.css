@@ -41,3 +41,37 @@ div.transbox a{
 div.transbox a:hover{
     text-shadow: 1px 1px #ffbf00;
 }
+
+div.card{
+    width:350px;
+    height: 350px;
+}
+img.activator{
+    height:100%;
+    width:100%;
+}
+.card-title{
+    font-family: Bahnschrift Condensed;
+    text-transform:uppercase;
+    color:#ffbf00;
+}
+.cardlogo1{
+    height:35px;
+    margin-left: 92%;
+    margin-top:-10px;
+}
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+.columnWrapper {
+	float: left;
+	width: 90%;	
+}
+.cardmargin1 {
+    float: left;
+    width: 30%;
+    margin-top: 510px;
+    margin-left: 2%;
+}
