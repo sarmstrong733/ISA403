@@ -23,7 +23,9 @@
         
         <script>
             $(document).ready(function(){
-            $('.sidenav').sidenav();});
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+            });
         </script>
         
     </head>
@@ -61,11 +63,24 @@
         </ul>
 
 <!--Transparent box in banner image-->
-        <img src="images/crowd.jpg" class="banner"/>
-        <div class="transbox">
-            <a href="music.html">Check out our newest records!</a>
-        </div>
+<!--parallax-->
+    <div class="parallax-container valign-wrapper banner">
+            <div class="parallax">
+                <img src="images/5crowd.png">
+            </div>
+            <div class="row">
+                <div class="col l8 white-text">
+                    <div class="transbox">
+                        <h4>
+                        <a href="music.html">Check out our newest records!</a>
+                        </h4>
+                        </div>
+                        </div>
+                <div class="col s9">
+                </div>
+            </div>
     </div>
+        
     <section class="w3-row-padding w3-center">
     <div class="cardmargin1">
         <article class="w3-third">
