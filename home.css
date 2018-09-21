@@ -23,30 +23,28 @@
 }
 div.transbox {
     text-align: center;
+    float: right;
     height:90px;
-    width: 900px;
+    width: 500px;
+    background-color:#ffbf00;
 }
-
 div.transbox a{
     margin: 5%;
     font-weight: bold;
-    color: #ffbf00;
+    color: #ffffff;
     font-size:40px;
     font-family:Bahnschrift Condensed;
     text-transform:uppercase;
     letter-spacing:5px;
+    background-color: #ffbf00;
 }
 div.transbox a:hover{
-    text-shadow: 1px 1px #ffbf00;
+    text-shadow: 1px 1px #ffffff;
+    background-color: #ffbf00;
 }
-
 div.card{
-    width:350px;
-    height: 350px;
-}
-img.activator{
-    height:100%;
-    width:100%;
+    width:325px;
+    height: 300px;
 }
 .card-title{
     font-family: Bahnschrift Condensed;
@@ -61,17 +59,6 @@ img.activator{
 * {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;	
-}
-
-.columnWrapper {
-	float: left;
-	width: 90%;	
-}
-.cardmargin1 {
-    float: left;
-    width: 30%;
-    margin-top: 2%;
-    margin-left: 2%;
 }
 .parallax {
    background-attachment:fixed;
@@ -92,3 +79,28 @@ img.activator{
     width: 50%;
     height: auto;
     }}
+img.activator{
+    height:300px;
+}
+.section-header{
+    font-weight: bold;
+    color: #000000;
+    font-family:Bahnschrift Condensed;
+    text-transform:uppercase;
+    letter-spacing:5px;
+    display:inline-block;
+}
+.solo{
+   font-weight: bold;
+    color: #ffbf00;
+    font-family:Bahnschrift Condensed;
+    text-transform:uppercase;
+    letter-spacing:5px;
+    display:inline-block; 
+}
+.ButtonTextColor{
+    color:white;
+}
+.page-footer{
+    background-color: #ffbf00;
+}
