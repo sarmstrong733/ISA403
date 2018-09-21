@@ -77,3 +77,18 @@ img.activator{
    background-attachment:fixed;
    background-size: 900% auto;
  }
+@media (min-width: 1200px)  {
+.brand-logo {
+    margin-top: 5px;
+    width: 40%;
+    }}
+@media (min-width: 900px) and (max-width: 1200px) {
+.brand-logo {
+    margin-top: 5px;
+    width: 50%;
+    }}
+@media (max-width: 480px) {
+.brand-logo {
+    width: 50%;
+    height: auto;
+    }}
