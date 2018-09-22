@@ -10,3 +10,42 @@ img.activator {
     vertical-align: middle;
     
 }
+
+/*NavBar*/
+.title{
+    padding-top: 5px;
+    width: 600px;
+    height:60px;
+    max-height:15%;
+    max-width:600px;
+    align-content: center;
+}
+.material-icons{
+    color:black;
+    padding-top: .25%;
+    float:left;
+}
+.topnav{
+    color:black;
+    text-decoration: bold;
+}
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+@media (min-width: 1200px)  {
+.brand-logo {
+    margin-top: 5px;
+    width: 40%;
+    }
+}
+@media (min-width: 900px) and (max-width: 1200px) {
+.brand-logo {
+    margin-top: 5px;
+    width: 50%;
+    }}
+@media (max-width: 480px) {
+.brand-logo {
+    width: 50%;
+    height: auto;
+    }}
