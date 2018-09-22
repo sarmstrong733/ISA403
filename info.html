@@ -4,35 +4,40 @@
 <html>
     <head>
         <title>Solo Penguin</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/w3css/3/w3.css">
         <link rel="stylesheet" href="info.css">
-
+        
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+    
         <!--Import Google Icon Font-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+        
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-
+    
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+        
         <script>
-        $(document).ready(function(){
-            $('.sidenav').sidenav();
-            $('.tabs').tabs();
-        });
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+                $('.parallax').parallax();
+                $('.tabs').tabs();
+                $('.collapsible').collapsible();
+            });
         </script>
+        
     </head>
     
-    
 <body>
-
-<!-- Navigation -->
+        
+<!-- Navigation Bar -->        
  <nav>
      <div class="nav-wrapper white">
-          <a href="#!" class="brand-logo left-align">  <img src="images/sprecords.png" class="responsive-img" /></a>
+          <a href="home.html" class="brand-logo left-align">  <img src="images/sprecords.png" class="responsive-img" /></a>
     
               <ul class="right hide-on-med-and-down">
                 <li><a href="home.html" class="topnav">Home</a></li>
@@ -102,7 +107,7 @@
     </div>
 </div>
 
-<!-- Footer -->
+<!--Footer-->
     <footer class="page-footer white">
           <div class="container">
             <div class="row">
@@ -110,14 +115,19 @@
                 <h5 class="black-text card-title">Thanks for visiting our site!</h5>
                 <p class="black-text text-lighten-4"></p>
               </div>
+              <div class="col l4 offset-l2 s12">
+                <ul>
+                  <li><a class="black-text text-lighten-3 card-title link" href="info.html">Return to the top.</a></li>
+                </ul>
+              </div>
             </div>
           </div>
           <div class="footer-copyright">
             <div class="container black-text">
-            © 2018 Copyright Text
+            © 2018 Solo Penguin Records
             </div>
           </div>
-    </footer>  
+        </footer>
     
 
 </body>

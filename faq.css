@@ -43,8 +43,16 @@
     color: #ffbf00;
 }
 
-/* FAQ Page */
 
+
+/*Footer*/
+.page-footer{
+    background-color: #ffbf00;
+}
+
+
+
+/* FAQ Page */
 .faq {
     color: black;
 }
