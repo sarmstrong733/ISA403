@@ -5,7 +5,8 @@ h2 {
 }
 
 img.activator {
-    height: 300px;
-    width: 200px;
+    max-width: 200px;
+    height: 200px;
+    vertical-align: middle;
     
 }
