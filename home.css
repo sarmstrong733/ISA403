@@ -39,6 +39,10 @@
     height: auto;
     }}
 
+.material-icons {
+    color: #ffbf00;
+}
+
 /*Parallax*/
 .banner {
     width:100%;

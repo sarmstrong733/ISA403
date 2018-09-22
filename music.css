@@ -1,16 +1,5 @@
 /* Sarah */
 
-h2 {
-    text-align: center;
-}
-
-img.activator {
-    max-width: 200px;
-    height: 200px;
-    vertical-align: middle;
-    
-}
-
 /*NavBar*/
 .title{
     padding-top: 5px;
@@ -49,3 +38,21 @@ img.activator {
     width: 50%;
     height: auto;
     }}
+
+.material-icons {
+    color: #ffbf00;
+}
+
+/* Music Page */
+h2 {
+    text-align: center;
+}
+
+img.card-image {
+    max-width: 200px;
+    height: 200px;
+    vertical-align: middle;
+    
+}
+
+

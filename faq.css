@@ -1,34 +1,5 @@
 /* Eddie */
 
-.brand-logo {
-    width: 100;
-}
-
-.topnav {
-    color: black;
-}
-
-.faq {
-    color: black;
-}
-
-.frequently {
-    color: #ffbf00;
-}
-
-.solo {
-    color: #ffbf00;
-}
-
-.material-icons {
-    color: #ffbf00;   
-}
-
-.collapsible-header:hover {
-    background-color: #cecece;
-    transition: background-color 700ms;
-}
-
 /*NavBar*/
 .title{
     padding-top: 5px;
@@ -67,3 +38,30 @@
     width: 50%;
     height: auto;
     }}
+
+.material-icons {
+    color: #ffbf00;
+}
+
+/* FAQ Page */
+
+.faq {
+    color: black;
+}
+
+.frequently {
+    color: #ffbf00;
+}
+
+.solo {
+    color: #ffbf00;
+}
+
+.material-icons {
+    color: #ffbf00;   
+}
+
+.collapsible-header:hover {
+    background-color: #cecece;
+    transition: background-color 700ms;
+}

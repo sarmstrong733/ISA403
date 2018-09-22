@@ -1,36 +1,5 @@
 /* Eddie */
 
-.brand-logo {
-    width: 50%;
-}
-
-.topnav {
-    color: black;
-    padding: 5px;
-}
-
-.banner {
-    text-align: center;
-    background: #ffbf00;
-    padding: 1px
-}
-
-.paragraph {
-    text-align: center;
-}
-
-.solo {
-    color: #ffbf00;
-}
-
-ul.tabs {
-    color: black;
-}
-
-.paragraph {
-    padding-top: 30px
-}
-
 /*NavBar*/
 .title{
     padding-top: 5px;
@@ -69,3 +38,31 @@ ul.tabs {
     width: 50%;
     height: auto;
     }}
+
+.material-icons {
+    color: #ffbf00;
+}
+
+
+/* Info Page */
+.banner {
+    text-align: center;
+    background: #ffbf00;
+    padding: 1px
+}
+
+.paragraph {
+    text-align: center;
+}
+
+.solo {
+    color: #ffbf00;
+}
+
+ul.tabs {
+    color: black;
+}
+
+.paragraph {
+    padding-top: 30px
+}
