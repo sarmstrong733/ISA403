@@ -56,16 +56,11 @@ h2 {
     text-align: center;
 }
 
-img.card-image {
-    width: 200px;
-    height: 200px;
-    vertical-align: middle;
-    
-}
 
 .card-image {
     max-height: 300px;
     max-width: 300px;
+    vertical-align: middle;
 }
 
 
