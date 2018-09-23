@@ -77,10 +77,9 @@ h2, p {
 }
 
 .card-content {
-    font-weight: 800;
     color: black;
 }
 
-.card-action {
+.card-action{
     color: #ffbf00;
 }
