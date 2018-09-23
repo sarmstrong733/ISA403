@@ -53,7 +53,7 @@
 
 
 /* Music Page */
-h2 {
+h2, p {
     text-align: center;
     font-family: Bahnschrift Condensed;
 }
@@ -64,7 +64,16 @@ h2 {
     max-width: 300px;
     vertical-align: middle;
 }
+
 .card{
     font-family: Bahnschrift Condensed;
 }
 
+.card-content {
+    font-weight: 800;
+    color: black;
+}
+
+.card-action {
+    color: #ffbf00;
+}
