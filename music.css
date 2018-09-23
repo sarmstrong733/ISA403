@@ -65,16 +65,11 @@ h2 {
     font-family: Bahnschrift Condensed;
 }
 
-img.card-image {
-    width: 200px;
-    height: 200px;
-    vertical-align: middle;
-    
-}
 
 .card-image {
     max-height: 300px;
     max-width: 300px;
+    vertical-align: middle;
 }
 .card{
     font-family: Bahnschrift Condensed;
