@@ -51,8 +51,11 @@
 }
 
 
-
 /* FAQ Page */
+h2 {
+    text-align: center;
+}
+
 .faq {
     color: black;
 }
