@@ -47,6 +47,7 @@
 /*Footer*/
 .page-footer{
     background-color: #ffbf00;
+    font-family: Bahnschrift Condensed;
 }
 
 
@@ -54,6 +55,7 @@
 /* Music Page */
 h2 {
     text-align: center;
+    font-family: Bahnschrift Condensed;
 }
 
 img.card-image {
@@ -67,5 +69,7 @@ img.card-image {
     max-height: 350px;
     max-width: 350px;
 }
-
+.card{
+    font-family: Bahnschrift Condensed;
+}
 
