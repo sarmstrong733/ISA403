@@ -8,7 +8,7 @@
     max-height:15%;
     max-width:600px;
     align-content: center;
-}
+    }
 .material-icons{
     color:black;
     padding-top: .25%;
@@ -47,6 +47,7 @@
 /*Footer*/
 .page-footer{
     background-color: #ffbf00;
+    font-family: Bahnschrift Condensed;
 }
 
 
@@ -54,6 +55,7 @@
 /* Contact Page */
 h1, h2, h5, p, form {
     text-align: center;
+    font-family: Bahnschrift Condensed;
 }
 
 p {
@@ -73,4 +75,8 @@ form {
 
 .text-area {
     padding: 20px;
+}
+
+.btn{
+    font-family: Bahnschrift Condensed;
 }
