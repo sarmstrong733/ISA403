@@ -48,31 +48,44 @@
 /*Footer*/
 .page-footer{
     background-color: #ffbf00;
+    font-family: Bahnschrift Condensed;
 }
 
 
 /* FAQ Page */
 h2 {
     text-align: center;
+    font-family: Bahnschrift Condensed;
 }
 
 .faq {
     color: black;
+    font-family: Bahnschrift Condensed;
 }
 
 .frequently {
     color: #ffbf00;
+    font-family: Bahnschrift Condensed;
 }
 
 .solo {
     color: #ffbf00;
+    font-family: Bahnschrift Condensed;
 }
 
 .material-icons {
     color: #ffbf00;   
+    font-family: Bahnschrift Condensed;
 }
 
 .collapsible-header:hover {
     background-color: #cecece;
     transition: background-color 700ms;
+    font-family: Bahnschrift Condensed;
+}
+.collapsible-header{
+    font-family: Bahnschrift Condensed;
+}
+.collapsible-body{
+    font-family: Bahnschrift Condensed;
 }
