@@ -17,6 +17,12 @@
 .topnav{
     color:black;
     text-decoration: bold;
+    font-family: Bahnschrift Condensed;
+    font-size:17px;
+}
+.sidenav{
+    font-family: Bahnschrift Condensed;
+    font-size:17px;
 }
 * {
 	-moz-box-sizing: border-box;
