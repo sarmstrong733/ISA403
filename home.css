@@ -74,6 +74,10 @@ div.transbox a{
    background-attachment:fixed;
    background-size: 900% auto;
  }
+/*Paragraph*/
+.description{
+    font-family: Bahnschrift Condensed;
+}
 
 /*Card*/
 div.card{
