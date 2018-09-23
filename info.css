@@ -48,6 +48,7 @@
 /*Footer*/
 .page-footer{
     background-color: #ffbf00;
+    font-family:Bahnschrift Condensed;
 }
 
 
@@ -55,11 +56,13 @@
 .banner {
     text-align: center;
     background: #ffbf00;
-    padding: 1px
+    padding: 1px;
+    font-family:Bahnschrift Condensed;
 }
 
 .paragraph {
     text-align: center;
+    font-family: Bahnschrift Condensed;
 }
 
 .solo {
@@ -68,6 +71,7 @@
 
 ul.tabs {
     color: black;
+    font-family:Bahnschrift Condensed;
 }
 
 .paragraph {
