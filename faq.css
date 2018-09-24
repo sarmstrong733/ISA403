@@ -58,9 +58,10 @@
 
 
 /* FAQ Page */
-h2 {
+h1, h2, h5, p, form {
     text-align: center;
     font-family: Bahnschrift Condensed;
+}
 }
 
 .faq {
