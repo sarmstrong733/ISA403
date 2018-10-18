@@ -118,6 +118,14 @@ img.activator{
     color:white;
 }
 
+/*Slideshow*/
+#image1, #image2, #image3{
+    height: 340px;
+    width: 340px;
+    float: left;
+    padding: 2px;
+}
+
 /*Footer*/
 .page-footer{
     background-color: #ffbf00;
