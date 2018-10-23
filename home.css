@@ -126,6 +126,10 @@ img.activator{
     padding: 2px;
 }
 
+#imageslides{
+    margin:auto;
+}
+
 /*Footer*/
 .page-footer{
     background-color: #ffbf00;
