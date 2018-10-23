@@ -24,6 +24,28 @@
             $('.sidenav').sidenav();
             $('.parallax').parallax();
             });
+            
+            
+//Image Swap
+            window.onload = function() {
+                var images = document.getElementById("image_list").getElementsByTagName("a");
+                for(i=0; i < images.length; i++) {
+                    images[i].onclick = function(evt) {
+                        document.getElementById("big_image").src = this.href;
+                        document.getElementById("image_header").innerHTML = this.getAttribute("alt");
+    
+                        if(evt.preventDefault) {
+                            evt.preventDefault();
+                        }
+
+                        else {
+                            evt.returnValue = false;
+                        }
+                    }
+
+                document.getElementById("big_image").focus();
+                }
+            }
         </script>
         
     </head>
@@ -58,5 +80,33 @@
 <!--Thank you-->
 <h2>Thank you for reaching out!</h2>
     <p>We will do our best to respond to all queries in a timely manner. In the meantime, please feel free to explore the rest of our site!</p>
+    
+
+<section id="gallery">
+    <h5 id="image_header">Beauty and the Beat</h5>       
+    <img src="images/image0.jpg" width ="96.6%" height=500px id="big_image">        
+    <ul id="image_list">
+        <li><a href="images/image0.jpg" alt="Beach" id="first">
+            <img src="thumbnails/image0.jpg" alt=""></a></li>
+        <li><a href="images/image1.jpg"  alt="Forest">
+            <img src="thumbnails/image1.jpg" alt=""></a></li>
+        <li><a href="images/image2.jpg" alt="Winter Forest">
+            <img src="thumbnails/image2.jpg"  alt=""></a></li>
+        <li><a href="images/image3.jpg" alt="Sunset">
+            <img src="thumbnails/image3.jpg"  alt=""></a></li>
+        <li><a href="images/image4.jpg" alt="Sunrise">
+            <img src="thumbnails/image4.jpg"  alt=""></a></li>
+        <li><a href="images/image5.jpg" alt="Desert">
+            <img src="thumbnails/image5.jpg"  alt=""></a></li>
+        <li><a href="images/image6.jpg" alt="Fall">
+            <img src="thumbnails/image6.jpg"  alt=""></a></li>
+        <li><a href="images/image7.jpg" alt="Green Meadows">
+            <img src="thumbnails/image7.jpg" alt=""></a></li>
+
+	    </ul>
+
+	</section>	    
+    
+    
     </body>
 </html>
