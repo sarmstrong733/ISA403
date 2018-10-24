@@ -57,13 +57,11 @@
 
 
 /*Image Swap*/
-header, section, footer, aside, nav, article, figure, figcaption {
+header, section, footer, aside, article {
     display: block;}
 
 body {
-    background-image: url("images/dark-wood.jpg");
     background-position: center;
-    font-family: Georgia, Times, serif;
     line-height: 1.4em;
     margin: 0px;
     text-align: center;
@@ -83,47 +81,6 @@ body {
 header {
     height: 70px;
    }
-
-nav {
-    color: #ffffff;
-    padding-top: 5px;
-    padding-left: 50px;
-    background-color: #9f131e;
-    height: 50px;
-    font-family: 'Lobster', cursive;
-}
-
-footer {
-    margin-top: -10px;
-    clear: both;
-    color: #ffffff;
-    background-color: #9f131e;
-    height: 35px;
-    font-family: 'Lobster', cursive;
-}
-
-nav ul {
-    margin: 0px;
-    padding: 5px 0px 5px 30px;
-}
-
-nav li {
-    display: inline;
-    margin-right: 40px;}
-
-nav li a {
-    color: #ffffff;}
-
-a {
-    text-decoration: none;
-} 
-
-nav li a:hover, nav li a.current {
-    color: yellowgreen;}
-
-footer {
-    font-size: 80%;
-    padding: 7px 0px 0px 20px;}
 
 /*Image Swap Code*/
 #gallery {
@@ -148,7 +105,7 @@ h5 {
     padding-bottom: 0px;
 }
 
-li {
+#image_list li {
     padding-right: 0px;
     display: inline-block;
 }
@@ -159,6 +116,3 @@ li {
     margin-right: auto;
 }
 
-div {
-    align-content: center;
-}
