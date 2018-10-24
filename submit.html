@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Solo Penguin</title>
@@ -17,15 +18,13 @@
     
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <script src="submit.js"></script>
         
         <script>
             $(document).ready(function(){
             $('.sidenav').sidenav();
             $('.parallax').parallax();
             });
-         </script> 
-        
+        </script>
         <script>
             //Image Swap
             window.onload = function() {
@@ -41,13 +40,11 @@
                 document.getElementById("big_image").focus();
                 }
             }
-            
-            </script>
-    
+        </script>
     </head>
     
-    
-<body>       
+<body>
+        
 <!-- Navigation Bar -->        
  <nav>
      <div class="nav-wrapper white">
@@ -74,28 +71,31 @@
         </ul>
     
 <!--Thank you-->
-<h2>Thank you for reaching out!</h2>
+<div id="thankyou">
+    <h2>Thank you for reaching out!</h2>
     <p>We will do our best to respond to all queries in a timely manner. In the meantime, please feel free to explore the rest of our site!</p>
-    
+</div>
 <!-- Images for Image Swap-->
 <section id="gallery">
     <h5 id="image_header">Love Story by Taylor Swift</h5>       
-    <img src="Images/lovestory.jpg" width ="96.6%" height=500px id="big_image">        
+    <img src="Images/lovestory.jpg" width ="60%" height=500px id="big_image"><br/>     
     <ul id="image_list">
         <li><a href="Images/lovestory.jpg" title="Love Story by Taylor Swift" id="first_link">
-            <img src="thumbnails/lovestory.jpg" alt="" height="200" width="300"></a></li>
+            <img src="thumbnails/lovestory.jpg" alt="" height="150" width="200"></a></li>
         <li><a href="Images/beautyandbeast.jpg"  title="Beauty and the Beast by Justin Bieber">
-            <img src="thumbnails/beautyandbeast.jpg" alt="" height="200" width="300"></a></li>
+            <img src="thumbnails/beautyandbeast.jpg" alt="" height="150" width="200"></a></li>
         <li><a href="Images/sugar.jpg" title="Sugar by Maroon 5">
-            <img src="thumbnails/sugar.jpg"  alt="" height="200" width="300"></a></li>
+            <img src="thumbnails/sugar.jpg"  alt="" height="150" width="200"></a></li>
         <li><a href="Images/singleladies.jpg" title="Single Ladies by Beyonce">
-            <img src="thumbnails/singleladies.jpg"  alt="" height="200" width="300"></a></li>
+            <img src="thumbnails/singleladies.jpg"  alt="" height="150" width="200"></a></li>
         <li><a href="Images/sunrise.jpg" title="Sunrise Sunburn Sunset Repeat by Luke Bryan">
-            <img src="thumbnails/sunrise.jpg"  alt="" height="200" width="300"></a></li>
+            <img src="thumbnails/sunrise.jpg"  alt="" height="150" width="200"></a></li>
     </ul>
 
-</section>	    
+</section>	        
+
+
     
     
-    </body>
+</body>
 </html>
