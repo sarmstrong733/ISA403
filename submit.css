@@ -66,14 +66,8 @@ body{
 #image_list li{
     display: inline-block;
 }
-#image_list{
-    margin-left: 16%; 
-}
-#big_image{
-    margin-left: 20%;
-}
+
 #image_header{
-    margin-left: 20%;
     font-family: Bahnschrift Condensed;
     text-transform: uppercase;
     color: #ffbf00;
