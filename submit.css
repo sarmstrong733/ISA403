@@ -79,9 +79,16 @@ body{
     color: #ffbf00;
 }
 
+#gallery {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*Footer*/
 .page-footer{
     background-color: #ffbf00;
     font-family: Bahnschrift Condensed;
     text-transform: uppercase;
 }
+
