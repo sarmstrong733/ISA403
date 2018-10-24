@@ -54,3 +54,103 @@
     font-family: Bahnschrift Condensed;
     text-transform: uppercase;
 }
+
+
+/*Image Swap*/
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;}
+
+body {
+    background-image: url("images/dark-wood.jpg");
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;}
+
+#logo {
+    float: left;
+    height: 55px;    
+}
+
+header {
+    height: 70px;
+   }
+
+nav {
+    color: #ffffff;
+    padding-top: 5px;
+    padding-left: 50px;
+    background-color: #9f131e;
+    height: 50px;
+    font-family: 'Lobster', cursive;
+}
+
+footer {
+    margin-top: -10px;
+    clear: both;
+    color: #ffffff;
+    background-color: #9f131e;
+    height: 35px;
+    font-family: 'Lobster', cursive;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;}
+
+nav li a {
+    color: #ffffff;}
+
+a {
+    text-decoration: none;
+} 
+
+nav li a:hover, nav li a.current {
+    color: yellowgreen;}
+
+footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;}
+
+/*Image Swap Code*/
+#gallery {
+    width: 909px;
+    border-right: 1px solid #eeeeee;}
+
+#big_image {
+    padding-left: 30px;
+}
+
+h5 {
+	font-size: 100%;
+	padding: 0 0 0 30px;
+    font-family: 'Satisfy', cursive;
+    padding-bottom: 0px;
+}
+
+#image_list {
+    margin-top: -5px;
+	padding-left: 30px;
+}
+
+#image_list img { width: 12.116%}
+
+li {
+    padding-right: 0px;
+    display: inline;
+}
+p {
+	padding-left: 60px;
+}
+
