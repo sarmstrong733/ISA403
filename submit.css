@@ -6,7 +6,7 @@
     max-height:15%;
     max-width:600px;
     align-content: center;
-    }
+}
 .material-icons{
     color:black;
     padding-top: .25%;
@@ -65,7 +65,9 @@ body {
     background-position: center;
     font-family: Georgia, Times, serif;
     line-height: 1.4em;
-    margin: 0px;}
+    margin: 0px;
+    text-align: center;
+}
 
 .wrapper {
     width: 940px;
@@ -126,10 +128,17 @@ footer {
 /*Image Swap Code*/
 #gallery {
     width: 909px;
-    border-right: 1px solid #eeeeee;}
+    border: 2px solid black;
+    text-align: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
 
 #big_image {
-    padding-left: 30px;
+    max-height: 300px;
+    max-width: 600px
 }
 
 h5 {
@@ -141,12 +150,15 @@ h5 {
 
 li {
     padding-right: 0px;
-    display: inline;
-}
-p {
-	padding-left: 60px;
+    display: inline-block;
 }
 
 #image_list{
     display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    align-content: center;
 }
