@@ -84,3 +84,10 @@ margin-top: 50px;
     text-transform:uppercase;
     letter-spacing:5px;
 }
+
+/*Footer*/
+.page-footer{
+    background-color: #ffbf00;
+    font-family: Bahnschrift Condensed;
+    text-transform: uppercase;
+}

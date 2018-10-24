@@ -47,7 +47,9 @@
     color: #ffbf00;
 }
 
-
+body{
+    font-family: Bahnschrift Condensed;
+}
 /*Thank You*/
 #thankyou{
     margin-left: auto;
@@ -56,6 +58,9 @@
 }
 #thankyou p{
     padding-bottom: 15px ;
+    width: 62%;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*Image Swap*/
 #image_list li{
