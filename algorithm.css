@@ -1,77 +1,86 @@
-body {
-  margin:0;
-  padding:20px;
+/*NavBar*/
+.title{
+    padding-top: 5px;
+    width: 600px;
+    height:60px;
+    max-height:15%;
+    max-width:600px;
+    align-content: center;
 }
-.quiz {
-  padding:0 30px 20px 30px;
-  max-width:960px;
-  margin:0 auto;
-  
-  ul {
-    list-style:none;
-    padding:0;
-    margin:0;
-  }
+.material-icons{
+    color:black;
+    padding-top: .25%;
+    float:left;
 }
-.quiz-question {
-  font-weight:bold;
-  display:block;
-  padding:30px 0 10px 0;
-  margin:0;
+.topnav{
+    color:black;
+    text-decoration: bold;
+    font-family: Bahnschrift Condensed;
+    font-size:17px;
 }
-.quiz-answer {
-  margin:0;
-  padding:10px;
-  background:#f7f7f7;
-  margin-bottom:5px;
-  cursor: pointer;
-  
-  &:hover {
-    background:#eee;
-  }
-  
-  &:before {
-    content:"";
-    display:inline-block;
-    width:15px;
-    height:15px;
-    border:1px solid #ccc;
-    background:#fff;
-    vertical-align:middle;
-    margin-right:10px;
-  }
-  
-  &.active {
-    &:before {
-      background-color:#333;
-      border-color:#333;
-    }
-  }
-  &.correct {
-    &:before {
-      background-color:green;
-      border-color:green;
-    }
-  }
-  &.incorrect {
-    &:before {
-      background-color:red;
-      border-color:red;
-    }
-  }
-  &.active.correct {
-    &:before {
-      outline: 2px solid green;
-      outline-offset: 2px;
-    }
-  }
+.sidenav{
+    font-family: Bahnschrift Condensed;
+    font-size:17px;
 }
-.quiz-result {
-  max-width:960px;
-  margin:0 auto;
-  font-weight:bold;
-  text-align:center;
-  color: #fff;
-  padding:20px;
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+@media (min-width: 1200px)  {
+.brand-logo {
+    margin-top: 5px;
+    width: 40%;
+    }
+}
+@media (min-width: 900px) and (max-width: 1200px) {
+.brand-logo {
+    margin-top: 5px;
+    width: 50%;
+    }}
+@media (max-width: 480px) {
+.brand-logo {
+    width: 50%;
+    height: auto;
+    }}
 
+.material-icons {
+    color: #ffbf00;
+}
+
+/*Form*/
+body {
+font-family: Bahnschrift Condensed;
+}
+
+#main {
+width: 60%;
+margin: auto;
+padding: 10px;
+margin-top: 20px;
+background-color: white;
+}
+
+label {
+width: 150px;
+display: inline-block;
+}
+
+button {
+display: block;
+margin-top: 50px;
+
+}
+
+#header1 h1{
+    width: 140%;
+    margin-left:-10%;
+    font-family: Bahnschrift Condensed;
+    font-size: 50px;
+}
+#solo{
+    font-weight: bold;
+    color: #ffbf00;
+    font-family:Bahnschrift Condensed;
+    text-transform:uppercase;
+    letter-spacing:5px;
 }

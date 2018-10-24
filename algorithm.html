@@ -1,52 +1,90 @@
-<div class="quiz">
-  
-  <h2 class="quiz-question">Q1: What is your go to snack?</h2>
-  <ul data-quiz-question="1">
-    <li class="quiz-answer" data-quiz-answer="a">a. Fruit</li>
-    <li class="quiz-answer" data-quiz-answer="b">b. Chips</li>
-    <li class="quiz-answer" data-quiz-answer="c">c. Cookies</li>
-    <li class="quiz-answer" data-quiz-answer="d">d. Veggies</li>
-  </ul>
-  
-  <h2 class="quiz-question">Q2: Where would you spend your dream vacation?</h2>
-  <ul data-quiz-question="2">
-    <li class="quiz-answer" data-quiz-answer="a">a. Island Paradise</li>
-    <li class="quiz-answer" data-quiz-answer="b">b. Beautiful Mountains</li>
-    <li class="quiz-answer" data-quiz-answer="c">c. Bustling City</li>
-    <li class="quiz-answer" data-quiz-answer="d">d. Peaceful Countryside</li>
-  </ul>
-  
-  <h2 class="quiz-question">Q3: What is your ideal pet?</h2>
-  <ul data-quiz-question="3">
-    <li class="quiz-answer" data-quiz-answer="a">a. Cat</li>
-    <li class="quiz-answer" data-quiz-answer="b">b. Dog</li>
-    <li class="quiz-answer" data-quiz-answer="c">c. Hamster</li>
-    <li class="quiz-answer" data-quiz-answer="d">d. Bird</li>
-  </ul>
-  
-  <h2 class="quiz-question">Q4: Which season do you absolutely love?</h2>
-  <ul data-quiz-question="4">
-    <li class="quiz-answer" data-quiz-answer="a">a. Summer</li>
-    <li class="quiz-answer" data-quiz-answer="b">b. Autumn</li>
-    <li class="quiz-answer" data-quiz-answer="c">c. Winter</li>
-    <li class="quiz-answer" data-quiz-answer="d">d. Spring</li>
-  </ul>
-  
-  <h2 class="quiz-question">Q5: What is your favorite meal of the day?</h2>
-  <ul data-quiz-question="5">
-    <li class="quiz-answer" data-quiz-answer="a">a. Breakfast </li>
-    <li class="quiz-answer" data-quiz-answer="b">b. Brunch</li>
-    <li class="quiz-answer" data-quiz-answer="c">c. Lunch</li>
-    <li class="quiz-answer" data-quiz-answer="d">d. Dinner</li>
-  </ul>
-  
-  <h2 class="quiz-question">Q6: How would you describe your style?</h2>
-  <ul data-quiz-question="6">
-    <li class="quiz-answer" data-quiz-answer="a">a. Trendy</li>
-    <li class="quiz-answer" data-quiz-answer="b">b. Classic</li>
-    <li class="quiz-answer" data-quiz-answer="c">c. Comfortable</li>
-    <li class="quiz-answer" data-quiz-answer="d">d. Eclectic</li>
-  </ul>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Solo Penguin</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/w3css/3/w3.css">
+        <link rel="stylesheet" href="algorithm.css">
+        
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="algorithm.js"></script>
+        
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+                $('.parallax').parallax();
+                $('.tabs').tabs();
+                $('.collapsible').collapsible();
+            });
+        </script>
+        
+    </head>
+    
+<body>
+        
+<!-- Navigation Bar -->        
+ <nav>
+     <div class="nav-wrapper white">
+          <a href="home.html" class="brand-logo left-align">  <img src="images/sprecords.png" class="responsive-img" /></a>
+    
+              <ul class="right hide-on-med-and-down">
+                <li><a href="home.html" class="topnav">Home</a></li>
+                <li><a href="info.html" class="topnav">About</a></li>
+                <li><a href="music.html" class="topnav">Music</a></li>
+                <li><a href="faq.html" class="topnav">FAQ</a></li>
+                <li><a href="contact.html" class="topnav">Contact</a></li>
+              </ul>
+                            
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+     </div> 
+</nav>
+
+        <ul class="sidenav"  id="mobile-demo" >
+            <li><a href="home.html">Home</a></li>
+            <li><a href="info.html">About</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+<!--Quiz-->
+<div id="main">
+<div id="header1"><h1>Which <span id="solo">SOLO</span> Penguin Records artist should you listen to?</h1></div>
+
+<form  id="form1">
+<p>How old are you?</p><td>
+<input type="radio" name="age" id="young" value="1" /><label>under 18</label>
+<input type="radio" name="age" id="mid" value="2" /><label>19-34</label>
+<input type="radio" name="age" id="old" value="3" /><label>34+</label>
+
+<p>What would you prefer to do?</p>
+<label><input type="radio" name="activity" id="party" value="1" />Go out with Friends</label>
+<label><input type="radio" name="activity" id="rock" value="2" />Rock out</label>
+<label><input type="radio"  name="activity"id="beer" value="3" />Check out a new Coffee Shop</label>
+
+<p>What's your favorite style of music?</p>
+<label><input type="radio" name="genre" id="rock2" value="1" />Rock</label>
+<label><input type="radio" name="genre" id="indie" value="2" />Indie</label>
+<label><input type="radio" name="genre" id="country" value="3" />Country</label>
+
+<br/><br/>
+<button class="btn waves-effect waves-light black" type="submit" name="action" id="submitForm" value="submit">Submit</button>
+</form>
+
+<p id="answer"></p>
+<p id="answer2"></p>
 </div>
 
-<div class="quiz-result"></div>
+
+</body>
+</html>
