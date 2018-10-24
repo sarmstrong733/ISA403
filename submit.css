@@ -48,12 +48,6 @@
 }
 
 
-/*Footer*/
-.page-footer{
-    background-color: #ffbf00;
-    font-family: Bahnschrift Condensed;
-    text-transform: uppercase;
-}
 /*Thank You*/
 #thankyou{
     margin-left: auto;
@@ -78,4 +72,11 @@
     font-family: Bahnschrift Condensed;
     text-transform: uppercase;
     color: #ffbf00;
+}
+
+/*Footer*/
+.page-footer{
+    background-color: #ffbf00;
+    font-family: Bahnschrift Condensed;
+    text-transform: uppercase;
 }
