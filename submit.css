@@ -60,6 +60,9 @@
     margin-right: auto;
     text-align: center;
 }
+#thankyou p{
+    padding-bottom: 15px ;
+}
 /*Image Swap*/
 #image_list li{
     display: inline-block;
@@ -72,4 +75,7 @@
 }
 #image_header{
     margin-left: 40%;
+    font-family: Bahnschrift Condensed;
+    text-transform: uppercase;
+    color: #ffbf00;
 }
