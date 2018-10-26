@@ -28,7 +28,34 @@
                 $('.collapsible').collapsible();
             });
         </script>
+        <script>
+        document.getElementById("form1").onsubmit=function() {   
+            var age = parseInt(document.querySelector('input[name = "age"]:checked').value);
+	  
+            var activity = parseInt(document.querySelector('input[name = "activity"]:checked').value);
+	   
+            var genre = parseInt(document.querySelector('input[name = "genre"]:checked').value);
+	   
+            var total= age + activity + genre;
+	  
+            document.getElementById("answer").innerHTML = total;
+
+            if(total < 4) {
+                document.getElementById("answer2").innerHTML = "You got Taylor Swift.";}
+            else if(total >=4 && total < 7) {
+                document.getElementById("answer2").innerHTML = "You got Justin Bieber.";
+            }
+            else{
+                document.getElementById("answer2").innerHTML = "You got Maroon 5.";
+            }   
+            return false; // required to not refresh the page; just leave this here
+        }// end the submit function
+	
+        </script>
+        <style>
+            .rb {display: inline;}
         
+        </style>
     </head>
     
 <body>
@@ -61,21 +88,70 @@
 <div id="main">
 <div id="header1"><h1>Which <span id="solo">SOLO</span> PENGUIN RECORDS artist should you listen to?</h1></div>
 
-<form  id="form1" action="algorithm.js">
+<form id="form1" action="#">
 <p>How old are you?</p><td>
-<input type="radio" name="age" id="young" value="1" /><label>under 18</label>
-<input type="radio" name="age" id="mid" value="2" /><label>19-34</label>
-<input type="radio" name="age" id="old" value="3" /><label>34+</label>
+     <tr>
+    <p class="rb">
+      <label>
+        <input type="radio" name="age" id="young" value="1" />
+        <span>under 18</span>
+      </label>
+    </p>
+    <p class="rb">
+      <label>
+        <input type="radio" name="age" id="mid" value="2" >
+        <span>19-34</span>
+      </label>
+    </p>
+    <p class="rb">
+      <label>
+        <input type="radio" name="age" id="old" value="3" >
+        <span>34+</span>
+      </label>
+         </p> </tr> </td>
+  
+    
+    <p>Where would you prefer to spend your Saturday Morning?</p><td>
+    <tr>
+    <p class="rb">
+       <label>
+        <input type="radio" name="activity" id="gym" value="1" />
+        <span>The gym</span>
+        </label>
+    </p>
+    
+    <p class="rb">
+      <label>
+        <input type="radio" name="activity" id="bed" value="3" />
+        <span>In bed</span>
+      </label>
+    </p>
+    <p class="rb">
+      <label>
+        <input type="radio" name="activity" id="coffee" value="2" />
+        <span>Coffee Shop</span>
+      </label>
+        </p></tr></td>
 
-<p>What would you prefer to do?</p>
-<label><input type="radio" name="activity" id="party" value="1" />Go out with Friends</label>
-<label><input type="radio" name="activity" id="rock" value="2" />Rock out</label>
-<label><input type="radio"  name="activity"id="beer" value="3" />Check out a new Coffee Shop</label>
-
-<p>What's your favorite style of music?</p>
-<label><input type="radio" name="genre" id="rock2" value="1" />Rock</label>
-<label><input type="radio" name="genre" id="indie" value="2" />Indie</label>
-<label><input type="radio" name="genre" id="country" value="3" />Country</label>
+<p>What's your favorite style of music?</p><td><tr>
+    <p class="rb">
+      <label>
+        <input type="radio" name="activity" id="pop" value="1" />
+        <span>Pop</span>
+      </label>
+    </p>
+    <p class="rb">
+      <label>
+        <input type="radio" name="activity" id="indie" value="2" />
+        <span>Indie</span>
+      </label>
+    </p>
+    <p class="rb">
+      <label>
+        <input type="radio" name="activity" id="country" value="3" />
+        <span>Country</span>
+      </label>
+    </p></tr></td>
 
 <br/><br/>
 <button class="btn waves-effect waves-light black" type="submit" name="action" id="submitForm" value="submit">Submit</button>
