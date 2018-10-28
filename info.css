@@ -67,9 +67,15 @@
 /* Info Page */
 .banner {
     text-align: center;
-    background: #ffbf00;
+    color: white;
+    background: black;
+    opacity: .75;
     padding: 1px;
     font-family:Bahnschrift Condensed;
+}
+
+h2 {
+    text-shadow: 2px 0px red;
 }
 
 .paragraph {
