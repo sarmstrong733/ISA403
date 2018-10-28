@@ -21,6 +21,5 @@ function displayResult() {
         else if (total >= 4 && total < 7) {document.getElementById("answer2").innerHTML = "You got Justin Bieber."; }
         else if (total >= 7) {document.getElementById("answer2").innerHTML = "You got Maroon 5."; } 
         else {alert("Fill out all questions before submitting."); }
-    return false; 
-}
-window.onload = function () {document.getElementById("submitForm").onsubmit = displayResult; };
+    return false; }
+window.onload = function () {document.getElementById("submitForm").onclick = displayResult; };
