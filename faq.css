@@ -115,7 +115,6 @@ h2 {
     font-family: "Gill Sans MT", sans-serif;
 	cursor: pointer;
     text-align: left;
-    border: 2px solid grey;
 }
 
 h2.plus {
@@ -141,4 +140,8 @@ p {
 	padding-bottom: .25em;
 	padding-left: 60px;
     text-align: left;
+}
+
+.questions {
+    border: 1px solid grey;
 }
