@@ -115,6 +115,7 @@ h2 {
     font-family: "Gill Sans MT", sans-serif;
 	cursor: pointer;
     text-align: left;
+    border: 2px solid grey;
 }
 
 h2.plus {
