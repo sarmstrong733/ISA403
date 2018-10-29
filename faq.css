@@ -98,6 +98,11 @@ h1, h2, h5, p, form {
     margin: 50px;
 }
 
+.section-header {
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+}
+
 .intro{
     font-family:bahnschrift condensed;
     text-align: center;
@@ -115,7 +120,7 @@ h2 {
     font-family: "Gill Sans MT", sans-serif;
 	cursor: pointer;
     text-align: left;
-    border: 2px solid grey;
+    /*border: 2px solid grey;*/
 }
 
 h2.plus {
