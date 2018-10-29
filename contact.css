@@ -46,7 +46,9 @@
 .material-icons {
     color: #ffbf00;
 }
-
+#submitForm a{
+    color: white;
+}
 
 /*Footer*/
 .page-footer{
