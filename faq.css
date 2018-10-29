@@ -48,7 +48,6 @@
 }
 
 
-
 /*Footer*/
 .page-footer{
     background-color: #ffbf00;
@@ -61,7 +60,6 @@
 h1, h2, h5, p, form {
     text-align: center;
     font-family: Bahnschrift Condensed;
-}
 }
 
 .faq {
@@ -95,6 +93,51 @@ h1, h2, h5, p, form {
 .collapsible-body{
     font-family: Bahnschrift Condensed;
 }
+
+.wrapper {
+    margin: 50px;
+}
+
 .intro{
     font-family:bahnschrift condensed;
+    text-align: center;
+    font-size: 115%;
+}
+
+h1 { 
+	font-size: 120%;
+    font-family: "Century Gothic", sans-serif;
+    padding-left: 40px;
+}
+h2 {
+	font-size: 100%;
+	padding: 0 60px;
+    font-family: "Gill Sans MT", sans-serif;
+	cursor: pointer;
+    text-align: left;
+}
+
+h2.plus {
+	background: url(images/plus.png) no-repeat left center;
+    background-position: 3%;
+    
+}
+h2.minus {
+	background: url(images/minus.png) no-repeat left center;
+    background-position: 3%;
+}
+
+div.closed {
+	display: none;
+    text-align: left;
+}
+div.open {
+	display: block;
+}
+
+p {
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+	padding-bottom: .25em;
+	padding-left: 60px;
+    text-align: left;
 }
