@@ -15,7 +15,7 @@ function displayResult() {
 
     total = season + activity + meal + vacation;
 
-    document.getElementById("answer").innerHTML = total;
+    //document.getElementById("answer").innerHTML = total;
 
         if (total < 4) {document.getElementById("answer2").innerHTML = "You got Taylor Swift."; } 
         else if (total >= 4 && total < 7) {document.getElementById("answer2").innerHTML = "You got Justin Bieber."; }
