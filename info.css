@@ -12,8 +12,9 @@
 .material-icons{
     color:black;
     padding-top: .25%;
-    float:left;
+    float: left;
 }
+
 .topnav{
     color:black;
     text-decoration: bold;
@@ -44,10 +45,6 @@
     width: 50%;
     height: auto;
     }}
-
-.material-icons {
-    color: #ffbf00;
-}
 
 .about {
     padding: 3px;
