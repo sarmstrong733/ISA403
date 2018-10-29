@@ -111,13 +111,11 @@ h1, h2, h5, p, form {
 
 h1 { 
 	font-size: 120%;
-    font-family: "Century Gothic", sans-serif;
     padding-left: 40px;
 }
 h2 {
 	font-size: 100%;
 	padding: 0 60px;
-    font-family: "Gill Sans MT", sans-serif;
 	cursor: pointer;
     text-align: left;
 <<<<<<< HEAD
@@ -145,7 +143,6 @@ div.open {
 }
 
 p {
-    font-family:"Trebuchet MS", Helvetica, sans-serif;
 	padding-bottom: .25em;
 	padding-left: 60px;
     text-align: left;
@@ -153,4 +150,7 @@ p {
 
 .questions {
     border: 1px solid grey;
+}
+body{
+    font-family: Bahnschrift Condensed;
 }
