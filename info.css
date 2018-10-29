@@ -75,7 +75,7 @@
 }
 
 h2 {
-    text-shadow: 2px 0px red;
+    text-shadow: 2px 0px #ffbf00;
 }
 
 .paragraph {
@@ -90,6 +90,7 @@ h2 {
 ul.tabs {
     color: black;
     font-family:Bahnschrift Condensed;
+    background-color: #ffbf00;
 }
 
 .paragraph {
