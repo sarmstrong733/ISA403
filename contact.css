@@ -46,8 +46,10 @@
 .material-icons {
     color: #ffbf00;
 }
-#submitForm a{
+#submitForm {
     color: white;
+    font-family: Bahnschrift Condensed;
+    padding: 10px;
 }
 
 /*Footer*/
@@ -70,14 +72,9 @@ p {
     margin-right: 30px;
 }
 
-
-form {
-    border: 1px solid gray;
-    display: inline-block;
-}
-
-.contact_form {
+#contact_form {
     Padding: 30px;
+    width: 100%;
 }
 
 .text-area {
@@ -86,4 +83,6 @@ form {
 
 .btn{
     font-family: Bahnschrift Condensed;
+    color: white;
+    margin-top: 15px;
 }

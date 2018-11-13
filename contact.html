@@ -19,13 +19,52 @@
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         
-        <script>
-            $(document).ready(function(){
-            $('.sidenav').sidenav();
-            $('.parallax').parallax();
-            });
-        </script>
+        <!--Validate Jquery-->
+        <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
         
+        <!--Validate Jquery-->      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+        
+<script>
+    $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.parallax').parallax();
+    $("#name").focus();
+    $("#contact_form").validate({
+    rules: {
+        name: {
+            required: true
+        },
+        email: {
+            required: true, 
+            email: true
+        },
+        phone: {
+            required: true,
+            phoneUS: true
+        },
+        message: {
+            required: true
+        }
+    },//end rules
+    messages:{
+        name: {
+            required: "Please enter your name"
+            },
+        email: {
+            required: "Please enter your email."
+        },
+        phone: {
+            required: "Please enter your phone number."
+        },
+        message: {
+            required: "Please enter your message."
+        }
+    } //end messages
+    }); //end validate
+    }); //end ready
+</script>
+
     </head>
     
 <body>
@@ -64,54 +103,33 @@
                 <h5>Want to get in touch? </h5>
                 <p>We want to hear from you. Whether you have a suggestion, are interested in signing with us, or just want to learn more, we appreciate you reaching out to us. Please fill out this form and a representative will get back to you within 24 hours.</p>
         </div>
+<!--Form New-->
+<form action="submit.html" method="get"
+    name="contact_form" id="contact_form">
+    <fieldset>
+        <i class="material-icons prefix">account_circle</i>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name"><br>
+        
+        <i class="material-icons prefix">email</i>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email"><br>
+        
+        <i class="material-icons prefix">phone</i>
+        <label for="phone">Phone:</label>
+        <input type="text" name="phone" id="phone" placeholder="999-999-9999"><br>
+        
+        <i class="material-icons prefix">comment</i>
+        <label for="message">Message:</label>
+        <input type="text" name="message" id="message"><br>
+    </fieldset>
 
-<!-- Form -->        
-  <div class = "contact_form">  
-    <div class="row">
-        <form class="col s12">
-            <div class="row">
-                <div class = "text-area">
-                <!-- Name Input -->
-                <div class="input-field">
-                    <i class="material-icons prefix">account_circle</i>
-                    <input id="icon_prefix" type="text" class="validate">
-                    <label for="icon_prefix">Name</label>
-                </div>
-
-                <!-- Email input -->                
-                <div class="input-field">
-                    <i class="material-icons prefix">email</i>
-                    <input id="icon_email" type="email" class="validate">
-                    <label for="icon_email">Email</label>
-                    
-                </div>
-
-                <!-- Phone input -->                
-                <div class="input-field">
-                    <i class="material-icons prefix">phone</i>
-                    <input id="icon_tel" type="tel" class="validate">
-                    <label for="icon_phone">Phone</label>
-                </div>
-
-                <!-- Comment input -->                
-                <div class="input-field">
-                    <i class="material-icons prefix">comment</i>
-                    <input id="icon_message" type="text" class="validate">
-                    <label for="icon_message">Message</label>
-                </div>
-                
-                
-            </div>
-            
-            <!-- Submit Button -->
-                <button class="btn waves-effect waves-light black" type="submit" name="action" id="submitForm"><a href = "submit.html">Submit</a>
-                <i class="material-icons right">send</i>
-            </button>
-            </div>
-            
-        </form>
-    </div>
-</div>
+<button class="btn waves-effect waves-light black">
+    <input type="submit" value="Submit"  name="submit" id="submitForm">
+    <i class="material-icons right">send</i>
+</button>
+    
+</form>
         
 <!--Footer-->
 <footer class="page-footer white">
