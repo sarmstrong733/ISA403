@@ -85,4 +85,8 @@ p {
     font-family: Bahnschrift Condensed;
     color: white;
     margin-top: 15px;
+ }
+
+.input{
+    display: block;
 }
