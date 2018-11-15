@@ -19,13 +19,20 @@
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         
+        <!-- 1. Link to jQuery (1.8 or later), -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
+
+        <!-- fotorama.css & fotorama.js. -->
+        <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+        
         <script>
             $(document).ready(function(){
             $('.sidenav').sidenav();
             $('.parallax').parallax();
             });
         </script>
-        <script>
+        <!--<script>
             //Image Swap
             window.onload = function() {
                 var images = document.getElementById("image_list").getElementsByTagName("a");
@@ -40,7 +47,7 @@
                 document.getElementById("big_image").focus();
                 }
             }
-        </script>
+        </script> -->
     </head>
     
 <body>
@@ -77,8 +84,28 @@
     <h2>Thank you for reaching out!</h2>
     <p>We will do our best to respond to all queries in a timely manner. In the meantime, please feel free to explore the rest of our site and check out some of our favorite music video moments below! We hope this sparks inspiration for your music exploration.</p>
 </div>
-<!-- Images for Image Swap-->
-<section id="gallery">
+    
+
+<div 
+     id="slideshow"
+     class="fotorama" 
+     data-width = "100%"
+     data-fit = "cover" 
+     data-nav = "thumbs" 
+     data-transition="crossfade"
+     data-autoplay="true"
+     data-navposition = "top"
+     >
+    
+    <a href = "Images/lovestory.jpg" data-caption="Love Story by Taylor Swift"><img src = "Images/lovestory.jpg" ></a>
+    <a href = "Images/beautyandbeast.jpg" data-caption="Beauty and the Beast by Justin Bieber"><img src = "Images/beautyandbeast.jpg"></a>
+    <a href = "Images/sunrise.jpg" data-caption="Sunrise Sunburn Sunset Repeat by Luke Bryan"><img src = "Images/sunrise.jpg"></a>
+    <a href = "Images/sugar.jpg" data-caption="Sugar by Maroon 5"><img src = "Images/sugar.jpg"></a>
+    <a href = "Images/singleladies.jpg" data-caption="Single Ladies by Beyonce"><img src = "Images/singleladies.jpg"></a>
+
+</div>
+<!-- Images for Image Swap using javascript-->
+<!--<section id="gallery">
     <h5 id="image_header">Love Story by Taylor Swift</h5>       
     <img src="Images/lovestory.jpg" width ="60%" height=500px id="big_image"><br/>     
     <ul id="image_list">
@@ -94,7 +121,7 @@
             <img src="thumbnails/sunrise.jpg"  alt="" height="150" width="200"></a></li>
     </ul>
 
-</section>	        
+</section>-->	        
 
 <!--Footer-->
 <footer class="page-footer white">

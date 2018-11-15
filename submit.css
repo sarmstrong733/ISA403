@@ -63,7 +63,7 @@ body{
     margin-right: auto;
 }
 /*Image Swap*/
-#image_list li{
+/*#image_list li{
     display: inline-block;
 }
 
@@ -78,6 +78,14 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+*/
+
+/* jQuery slideshow */
+#slideshow {
+    margin-left: 100px;
+    margin-right:100px;
+}
+
 
 /*Footer*/
 .page-footer{
