@@ -20,7 +20,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         <script src="algorithm.js"></script>
         
-        
+        <!--jQuery Dialog Box-->
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         
         <script>
             $(document).ready(function(){
@@ -28,8 +32,11 @@
                 $('.parallax').parallax();
                 $('.tabs').tabs();
                 $('.collapsible').collapsible();
-                $("#submitForm").onclick(function(){
-                    $("#dialog").dialog();
+                $( "#dialog" ).dialog({
+                  autoOpen: false,
+                });
+                $( "#submitForm" ).on( "click", function() {
+                  $( "#dialog" ).dialog( "open" );
                 });
             });
         </script>
@@ -205,7 +212,7 @@
             © 2018 Solo Penguin Records
         </div>
     </div>
-</footer>
-    
+</footer> 
+    </div>
 </body>
 </html>
