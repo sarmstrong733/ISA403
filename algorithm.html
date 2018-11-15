@@ -20,12 +20,17 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         <script src="algorithm.js"></script>
         
+        
+        
         <script>
             $(document).ready(function(){
                 $('.sidenav').sidenav();
                 $('.parallax').parallax();
                 $('.tabs').tabs();
                 $('.collapsible').collapsible();
+                $("#submitForm").onclick(function(){
+                    $("#dialog").dialog();
+                });
             });
         </script>
     </head>
@@ -180,6 +185,7 @@
   </form>
 
   <p id="answer"></p>
+<div id="dialog">
   <p id="answer2"></p>
 </div>
 
