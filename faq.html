@@ -4,53 +4,30 @@
         <title>Solo Penguin</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/w3css/3/w3.css">
+        <!--<link rel="stylesheet" href="/w3css/3/w3.css"> -->
         <link rel="stylesheet" href="faq.css">
+        
         
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    
-        <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         
-        <!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    
-        <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+        <!-- Accordion -->
+        <title>jQuery UI Accordion - Default functionality</title>
+        
+        <link rel="stylesheet" href="jquery-ui.css">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
+        
+        <link rel="stylesheet" href="jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         
         <script>
-            $(document).ready(function(){
-                $('.sidenav').sidenav();
-                $('.parallax').parallax();
-                $('.tabs').tabs();
-                $('.collapsible').collapsible();
-            });
-            
-            function toggle() {
-            //symbol change
-            if(this.getAttribute("class") == "plus") {
-                this.setAttribute("class", "minus");
-            }
-            else {
-                this.setAttribute("class", "plus");
-            }
-            //show and hide content
-            if(this.nextElementSibling.getAttribute("class")=="closed") {
-                this.nextElementSibling.setAttribute("class", "open");
-            }
-            else {
-                this.nextElementSibling.setAttribute("class", "closed");
-            }       
-        }
-        
-         window.onload = function() {
-             var h2s = document.getElementById("faqs").getElementsByTagName("h2");
-             for (i=0; i<h2s.length; i++) {
-                 h2s[i].onclick = toggle;
-             }
-         }
-        </script>
+            $( function() {
+                $( "#accordion" ).accordion();
+            } );
+        </script>        
         
     </head>
     
@@ -83,50 +60,49 @@
             <li><a href="algorithm.html">Quiz</a></li>
         </ul>
     
-<!-- FAQ Collapsible Badges -->
-    
     <div class="wrapper">
         <section id="faqs">
             <h1 class="section-header"><span class="frequently">Frequently</span> Asked Questions</h1>
             <p class="intro">We listened and created this page for you! Here are answers to some of our most frequently asked questions. If you don't see what you're looking for feel free to <a href="contact.html">Contact Us</a>. Again, we're so glad you stopped by! </p>
-            <div class="questions">
-            <h2 class="plus" style="font-size:150%">What is Solo Penguin Records?</h2>
-            <div class="closed">
-                <p><span><span class="solo">Solo</span> Penguin Records is a label that not only supports its artists, but unlike most records, works to build relationships and improve them both personally as well as professionally. It is our goal to inspire and give back.</span>
-                </p>
-            </div>
-            
-            <h2 class="plus" style="font-size: 150%">How does Solo Penguin Records choose its artists?</h2>
-            <div class="closed">
-                <p><span>Here at <span class="solo">Solo</span>  Penguin Records, we strive to sign the best and most unique artists who are also exceptional individuals outside the spotlight. It is our goal to produce fantastic music for a diverse audience and make the world a better place while doing it.</span></p>
-            </div>
-            <h2 class="plus" style="font-size: 150%">When did Solo Penguin Records establish itself?</h2>
-            
-            <div class="closed">
-                <p><span><span class="solo">Solo</span> Penguin Records was established in September of 2018. It began with a small team of 3 music-lovers and has grown to be one of the most well known record labels to date. </span>
-                </p>
-            </div>
-            
-            <h2 class="plus" style="font-size: 150%">How can I be signed by Solo Penguin Records?</h2>
-            <div class="closed">
-                <p><span><span class="solo">Solo</span> Penguin Records employs an elite group of scouts that will find the diamonds in the rough. If you make great music and share it with the world, there's a high chance we will notice you. Unfotunately, we do not accept or listen to unsolicited material sent our way.</span>
-                </p>
-            </div>
-            
-            <h2 class="plus" style="font-size: 150%">Which artists have Solo Penguin Records signed?</h2>
-            <div class="closed">
-                <p><span><span class="solo">Solo</span> Penguin Records has a myriad of partnerships that span a variety of genres. Some of these include Justin Bieber, Rihanna, Taylor Swift, and Beyonce. The number is always growing and we are excited to see which artists join us in the future.</span>
-                </p>
-            </div>
-            
-            <h2 class="plus" style="font-size: 150%">How can I contact Solo Penguin Records with direct questions?</h2>
-            <div class="closed">
-                <p><span>If our FAQs have not answered your questions, please navigate to the <a href="contact.html" class="topnav text-blue">Contact Us</a></span> page for further assistance.
-                </p>
-            </div>
-            </div>
         </section>
     </div>
+    
+<div id="accordion">
+  <h3>What is Solo Penguin Records?</h3>
+  <div>
+    <p>
+    <span><span class="solo">Solo</span> Penguin Records is a label that not only supports its artists, but unlike most records, works to build relationships and improve them both personally as well as professionally. It is our goal to inspire and give back.</span>
+    </p>
+  </div>
+  <h3>How does Solo Penguin Records choose its artists?</h3>
+  <div>
+    <p>
+    <span>Here at <span class="solo">Solo</span>  Penguin Records, we strive to sign the best and most unique artists who are also exceptional individuals outside the spotlight. It is our goal to produce fantastic music for a diverse audience and make the world a better place while doing it.</span>
+    </p>
+  </div>
+  <h3>When did Solo Penguin Records establish itself?</h3>
+  <div>
+    <p>
+    <span><span class="solo">Solo</span> Penguin Records was established in September of 2018. It began with a small team of 3 music-lovers and has grown to be one of the most well known record labels to date. </span>
+    </p>
+  </div>
+  <h3>How can I be signed by Solo Penguin Records?</h3>
+  <div>
+    <p>
+    <span><span class="solo">Solo</span> Penguin Records employs an elite group of scouts that will find the diamonds in the rough. If you make great music and share it with the world, there's a high chance we will notice you. Unfotunately, we do not accept or listen to unsolicited material sent our way.</span>
+    </p>
+  </div>
+    <h3>Which artists have Solo Penguin Records signed?</h3>
+  <div>
+    <p><span><span class="solo">Solo</span> Penguin Records has a myriad of partnerships that span a variety of genres. Some of these include Justin Bieber, Rihanna, Taylor Swift, and Beyonce. The number is always growing and we are excited to see which artists join us in the future.</span>
+    </p>
+  </div>
+    <h3>How can I contact Solo Penguin Records with direct questions?</h3>
+  <div>
+    <p><span>If our FAQs have not answered your questions, please navigate to the <a href="contact.html" class="topnav text-blue">Contact Us</a></span> page for further assistance.
+    </p>
+  </div>
+</div>
     
 <!--Footer-->
 <footer class="page-footer white">

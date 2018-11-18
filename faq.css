@@ -150,3 +150,7 @@ p {
 body{
     font-family: Bahnschrift Condensed;
 }
+
+#accordion {
+    margin: 50px
+}
