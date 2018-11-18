@@ -14,8 +14,9 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         
         <!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         
@@ -23,8 +24,9 @@
             $(document).ready(function(){
                 $('.sidenav').sidenav();
                 $('.parallax').parallax();
-                $('.tabs').tabs();
-                $('.collapsible').collapsible();
+                $('.tabs').tabs({
+                    collapsible:true
+                });
             });
         </script>
         
@@ -63,13 +65,13 @@
 <div class="about row">
     <div class="col s12">
       <ul class="tabs">
-        <li class="tab col s3"><a href="#test1" style="color:black">Our Story</a></li>
-        <li class="tab col s3"><a href="#test2" style="color:black">Culture</a></li>
-        <li class="tab col s3"><a href="#test3" style="color:black">Team</a></li>
-        <li class="tab col s3"><a href="#test4" style="color:black">Jobs</a></li>
+        <li class="tab col s3"><a href="#tab1" style="color:black">Our Story</a></li>
+        <li class="tab col s3"><a href="#tab2" style="color:black">Culture</a></li>
+        <li class="tab col s3"><a href="#tab3" style="color:black">Team</a></li>
+        <li class="tab col s3"><a href="#tab4" style="color:black">Jobs</a></li>
       </ul>
     </div>
-    <div id="test1" class="col s12">
+    <div id="tab1" class="col s12">
         <div class="banner">
             <h2>Our Story</h2>
             <p>How we got started.</p>
@@ -78,7 +80,7 @@
             <span class="solo">Solo</span> Penguin Records strives to better its employees as much as its partners. For this reason, being on a team here is not like being on a team somewhere else. We nurture self-sustainable teams that inspire its members to be better without external pressures. Personal and professional development are taken very seriously, and it can be seen every day inside and outside the office.
         </div>
     </div>
-    <div id="test2" class="col s12">
+    <div id="tab2" class="col s12">
         <div class="banner">
             <h2>Culture</h2>
             <p>Being part of the family.</p>
@@ -87,7 +89,7 @@
             When you work for <span class="solo">Solo</span> Penguin Records, you do not work for a company. Rather, you join a family who shares the same passions and interests as you. We take our culture seriously here because in the end, it's the people from the bottom to the top who make a great company.
         </div>
     </div>
-    <div id="test3" class="col s12">
+    <div id="tab3" class="col s12">
         <div class="banner">
             <h2>Team</h2>
             <p>Working on a team.</p>
@@ -96,7 +98,7 @@
             It all began in 2018 with 3 ambitious individuals, a love for music, and a passion for making the world a better place. In the early days, <span class="solo">Solo</span> Penguin Records grew with a purpose. We wanted a way to share what we believed to be exceptional music with the world and build relationships while doing it. After setting the building blocks through our mission, little by little we went from a 3 person operation to a global record label.
         </div>
     </div>
-    <div id="test4" class="col s12">
+    <div id="tab4" class="col s12">
         <div class="banner">
             <h2>Jobs</h2>
             <p>Joining us.</p>

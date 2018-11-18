@@ -31,23 +31,7 @@
                 $('.sidenav').sidenav();
                 $('.parallax').parallax();
                 $('.tabs').tabs();
-                $('.collapsible').collapsible();
-                
-                $( "#dialog" ).dialog({
-                    autoOpen: false,
-                    show: {
-                        effect: "blind",
-                        duration: 1000
-                    },
-                    hide: {
-                        effect: "explode",
-                        duration: 1000
-                    }
-                });
-
-                $( "#submitForm" ).on( "click", function() {
-                    $( "#answer2" ).dialog( "open" );
-                });
+                $('.collapsible').collapsible()
             });
         </script>
     </head>
@@ -200,11 +184,8 @@
     <br/><br/>
     <button class="btn waves-effect waves-light black" type="submit" name="action" id="submitForm" value="submit" onSubmit="algorithm.js">Submit</button>
   </form>
-
-  <p id="answer"></p>
-<div id="dialog">
-  <p id="answer2"></p>
-</div>
+    <p id="answer"></p>
+    <p id="answer2"></p>
 
 <!--Footer-->
 <footer class="page-footer white">
