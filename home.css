@@ -73,7 +73,7 @@ div.transbox a{
    background-size: 900% auto;
  }
 /*Paragraph*/
-.description{
+.description, h4{
     font-family: Bahnschrift Condensed;
 }
 
@@ -133,4 +133,6 @@ img.activator{
 /*Footer*/
 .page-footer{
     background-color: #ffbf00;
+    font-family: Bahnschrift Condensed;
+    text-transform: uppercase;
 }
