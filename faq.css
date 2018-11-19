@@ -94,6 +94,11 @@ h1, h2, h5, p, form {
     font-family: Bahnschrift Condensed;
 }
 
+.ui-accordion-header.ui-state-active { 
+    background-color: #ffbf00;
+    border-color: black;
+}
+
 .wrapper {
     margin: 50px;
 }
@@ -153,4 +158,8 @@ body{
 
 #accordion {
     margin: 50px
+}
+
+href a {
+    color: blue;
 }

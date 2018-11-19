@@ -34,9 +34,13 @@
                 
         <script>
             $(document).ready(function(){
-             $('.sidenav').sidenav();});
-            $(document).ready(function() {
-                $( "#accordion" ).accordion();
+             $('.sidenav').sidenav();
+            });
+            
+            $( function() {
+                $( "#accordion" ).accordion({
+                    collapsible: true
+                });
             } );
         </script>        
         
@@ -110,7 +114,7 @@
   </div>
     <h3>How can I contact Solo Penguin Records with direct questions?</h3>
   <div>
-    <p><span>If our FAQs have not answered your questions, please navigate to the <a href="contact.html" class="topnav text-blue">Contact Us</a></span> page for further assistance.
+    <p><span>If our FAQs have not answered your questions, please navigate to the <a href="contact.html">Contact Us</a></span> page for further assistance.
     </p>
   </div>
 </div>
