@@ -25,21 +25,18 @@
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         
-       <!--<script>
-            $(document).ready(function(){
-                $('.sidenav').sidenav();
-                $('.parallax').parallax();
-                $('.tabs').tabs();
-                $('.collapsible').collapsible()
-            });
-        </script> -->
-        
         <script>
             $( function() {
                 $("#dialog").hide();
                 $("#submitForm").click(function() {
                     //$("#answer2").clone().insertAfter($("#dialog p"));
-                    $("#dialog").dialog();
+                    $("#dialog").dialog({
+                        width: 400,
+                        show: {
+                        effect: "blind",
+                        duration: 1000
+                        }
+                    });
                 } );
             })
                 

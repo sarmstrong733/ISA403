@@ -89,6 +89,15 @@ margin-top: 50px;
      display: inline;
 }
 
+/*Dialog Box*/
+img{
+    width: 350px;
+    height: 300px;
+}
+#dialog{
+    align-content: center;
+    font-family: Bahnschrift Condensed;
+}
 /*Footer*/
 .page-footer{
     background-color: #ffbf00;
