@@ -4,7 +4,7 @@
         <title>Solo Penguin</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/w3css/3/w3.css">
+
         <link rel="stylesheet" href="algorithm.css">
         
         <!-- Compiled and minified CSS -->
@@ -22,23 +22,34 @@
         
         <!--jQuery Dialog Box-->
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-        <link rel="stylesheet" href="/resources/demos/style.css">
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         
-        <script>
+       <!--<script>
             $(document).ready(function(){
                 $('.sidenav').sidenav();
                 $('.parallax').parallax();
                 $('.tabs').tabs();
                 $('.collapsible').collapsible()
             });
+        </script> -->
+        
+        <script>
+            $( function() {
+                $("#dialog").hide();
+                $("#submitForm").click(function() {
+                    //$("#answer2").clone().insertAfter($("#dialog p"));
+                    $("#dialog").dialog();
+                } );
+            })
+                
         </script>
     </head>
     
 <body>
         
 <!-- Navigation Bar -->        
+
  <nav>
      <div class="nav-wrapper white">
           <a href="home.html" class="brand-logo left-align">  <img src="images/sprecords.png" class="responsive-img" /></a>
@@ -186,6 +197,10 @@
   </form>
     <p id="answer"></p>
     <p id="answer2"></p>
+    </div>
+    
+    <div id="dialog" title="Quiz Results!">
+      <p></p>
     </div>
 
 <!--Footer-->

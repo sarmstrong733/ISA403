@@ -17,9 +17,10 @@ function displayResult() {
 
     //document.getElementById("answer").innerHTML = total;
 
-        if (total < 4) {document.getElementById("answer2").innerHTML = "You should listen to Taylor Swift."; } 
-        else if (total >= 4 && total < 7) {document.getElementById("answer2").innerHTML = "You should listen to Justin Bieber."; }
-        else if (total >= 7) {document.getElementById("answer2").innerHTML = "You got Maroon 5."; } 
+        if (total < 4) {document.getElementById("dialog").innerHTML = "<img src='images/Taylor Swift.jpg'> You should listen to Taylor Swift!"; } 
+        else if (total >= 4 && total < 7) {document.getElementById("dialog").innerHTML = "<img src='images/Justin Bieber.jpg'> You should listen to Justin Bieber!"; }
+        /*else if (total >= 7) {document.getElementById("answer2").innerHTML = "You got Maroon 5."; } */
+        else if (total >= 7) {document.getElementById("dialog").innerHTML = "<img src='images/maroon 5.jpg'> You got Maroon 5!"; } 
         else {alert("Fill out all questions before submitting."); } 
     return false; }
 window.onload = function () {document.getElementById("submitForm").onclick = displayResult; };
