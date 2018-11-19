@@ -98,7 +98,9 @@ img{
 #dialog{
     align-content: center;
     font-family: Bahnschrift Condensed;
+    font-size: 20px;
 }
+
 /*Footer*/
 .page-footer{
     background-color: #ffbf00;
