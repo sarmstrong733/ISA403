@@ -7,24 +7,35 @@
         <!--<link rel="stylesheet" href="/w3css/3/w3.css"> -->
         <link rel="stylesheet" href="faq.css">
         
-        
-        <!-- Compiled and minified CSS -->
+          <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         
         
+        
+        <!--Import jQuery before materialize-->
+        <link rel="stylesheet" href="jquery-ui.css">
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+                <!-- Compiled and minified CSS -->
+
         <!-- Accordion -->
-        <title>jQuery UI Accordion - Default functionality</title>
-        
         <link rel="stylesheet" href="jquery-ui.css">
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-        <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
         
-        <link rel="stylesheet" href="jquery-ui.css">
-        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        
+
+                
         <script>
-            $( function() {
+            $(document).ready(function(){
+             $('.sidenav').sidenav();});
+            $(document).ready(function() {
                 $( "#accordion" ).accordion();
             } );
         </script>        
@@ -58,7 +69,7 @@
             <li><a href="faq.html">FAQ</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="algorithm.html">Quiz</a></li>
-        </ul>
+    </ul>
     
     <div class="wrapper">
         <section id="faqs">
