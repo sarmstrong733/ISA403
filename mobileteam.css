@@ -1,0 +1,30 @@
+a {
+	font-weight: bold;
+    font-family: Bahnschrift Condensed;
+}
+h4 {
+	margin-top: .5em;
+	margin-bottom: .3em;
+    font-family: Bahnschrift Condensed;
+
+}
+p {
+	margin-top: 0;
+    font-family: Bahnschrift Condensed;
+
+}
+body{
+    font-family: Bahnschrift Condensed;
+}
+#header{
+    background-color: #ffbf00;
+}
+#teammember{
+    background-color: #ffbf00;
+}
+#teamleader{
+    background-color: #ffbf00;
+}
+#footer{
+    background-color: #ffbf00;
+}

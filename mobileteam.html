@@ -1,0 +1,124 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+    <title>Solo Penguin Records</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link href="mobileteam.css" rel="stylesheet" type="text/css">       
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+	<div data-role="page" id="home">
+    	<header data-role="header" id="header">
+        	<h1>Our Team</h1>
+    	</header>
+		
+       <!-- add the code for a split button list here -->        
+        <section data-role="content">
+			<div class="content-primary">
+				<ul data-role="listview" data-inset="true" data-split-icon="arrow-r" data-filter="true">
+                    <li data-role="list-divider" id="teammember">
+                        Team Member
+                    </li>
+                	<li>
+                    	<a href="#amanda">
+                    		<img src="images/amanda.jpg" alt="Amanda">
+                    		<h3>Amanda Burke</h3>
+                    	</a>
+                    	<a href="#amanda" data-rel="dialog" data-transition="pop" title="Contact Us"></a>
+                	</li>
+					<li>
+                    	<a href="#sarah">
+                    		<img src="images/sarah.jpg" alt="Sarah">
+                    		<h3>Sarah Armstrong</h3>
+                    	</a>
+                    	<a href="#sarah" data-rel="dialog" data-transition="pop" title="Contact Us">Contact Us</a>
+                	</li>
+                	<li>
+                    	<a href="#eddie">
+                    		<img src="images/eddie.jpg" alt="Eddie">
+                    		<h3>Eddie Szmigielski </h3>
+                    	</a>
+                    	<a href="#eddie" data-rel="dialog" data-transition="pop" title="Contact Us">Contact Us</a>
+                	</li>
+                    <li data-role="list-divider" id="teamleader">
+                       Team Leader
+                    </li>
+                	<li>
+                    	<a href="#">
+                    		<img src="images/person.jpg" alt="person">
+                    		<h3>Person</h3>
+                    	</a>
+                    	<a href="#person" data-rel="dialog" data-transition="pop" title="Contact Us">Contact Us</a>
+                	</li>
+            	</ul>
+			</div>
+    	</section>
+    
+    	<footer data-role="footer" id="footer">
+        	<h4>&copy; SOLO Penguin Records 2018</h4>
+    	</footer>
+	</div>
+
+    <!--Amanda's Page-->
+       <div data-role="page" id="amanda">
+    	<header data-role="header" id="header">
+        	<h1><a href="#home">Return to Our Team</a></h1>
+    	</header>
+    
+    	<section data-role="content"> 
+		 		<h3>Amanda Burke</h3>
+            	<img src="images/amanda.jpg" alt="Amanda">
+            	<h4>Amanda Burke<br></h4>
+            	<p> Amanda is a Senior Information Systems Major with a Business Analytics Minor. She is excited about the work she has completed on Solo Penguin Records with her team members and looks forward to applying her acquired knowledge in the future.</p>
+            	<a href="mailto:burkeak4@miamioh.edu" data-role="button" class="ui-bar" data-icon="plus" >Email Amanda</a>
+           </section>
+    
+    	<footer data-role="footer" id="footer">
+        	<h4>&copy; SOLO Penguin Records 2018</h4>
+    	</footer>
+    	</div>
+<!--Sarah's Page-->
+<div data-role="page" id="sarah">
+    	<header data-role="header" id="header">
+        	<h1><a href="#home">Return to Our Team</a></h1>
+    	</header>
+    
+    	<section data-role="content"> 
+		 		<h3>Sarah Armstrong</h3>
+            	<img src="images/sarah.jpg" alt="Sarah">
+            	<h4>Sarah Armstrong<br></h4>
+            	<p> DESCRIPTION </p>
+            	<a href="mailto:armstrsa@miamioh.edu" data-role="button" class="ui-bar" data-icon="plus" >Email Sarah</a>
+           </section>
+    
+    	<footer data-role="footer" id="footer">
+        	<h4>&copy; SOLO Penguin Records 2018</h4>
+    	</footer>
+    	</div>
+    
+<!--Eddie's Page-->
+<div data-role="page" id="eddie">
+    	<header data-role="header" id="header">
+        	<h1><a href="#home">Return to Our Team</a></h1>
+    	</header>
+    
+    	<section data-role="content"> 
+		 		<h3>Eddie Szmigielski</h3>
+            	<img src="images/eddie.jpg" alt="Eddie">
+            	<h4>Eddie Szmigielski<br></h4>
+            	<p> DESCRIPTION </p>
+            	<a href="mailto:szmigie@miamioh.edu" data-role="button" class="ui-bar" data-icon="plus" >Email Eddie</a>
+           </section>
+    
+    	<footer data-role="footer" id="footer">
+        	<h4>&copy; SOLO Penguin Records 2018</h4>
+    	</footer>
+    	</div>
+
+</body>
+</html>
