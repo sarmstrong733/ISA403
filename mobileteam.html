@@ -13,8 +13,8 @@
 
 <body>
     
-    <!-- Team Page -->
-	<div data-role="page" id="home">
+<!-- Team Page -->
+	<div data-role="page" id="team">
     	<header data-role="header" id="header">
         	<h1>Solo Penguin Records</h1>
             <div id = "navbar" data-role = "navbar">
@@ -91,8 +91,8 @@
         	<h4>&copy; SOLO Penguin Records 2018</h4>
     	</footer>
     	</div>
-<!--Sarah's Page-->
-<div data-role="page" id="sarah">
+    <!--Sarah's Page-->
+    <div data-role="page" id="sarah">
     	<header data-role="header" id="header">
         	<h1><a href="#home">Return to Our Team</a></h1>
     	</header>
@@ -110,8 +110,8 @@
     	</footer>
     	</div>
     
-<!--Eddie's Page-->
-<div data-role="page" id="eddie">
+    <!--Eddie's Page-->
+    <div data-role="page" id="eddie">
     	<header data-role="header" id="header">
         	<h1><a href="#home">Return to Our Team</a></h1>
     	</header>
@@ -137,8 +137,58 @@
     
     
 <!--Contact Us page-->
+<div data-role="page" id="contactus">
+    <header data-role="header" id="header">
+        <h1>Solo Penguin Records</h1>
+        <div id = "navbar" data-role = "navbar">
+            <ul>
+                <li><a href="#team" data-icon="home" class="ui-btn-active">Our Team</a></li>
+                <li><a href="#faq" data-icon="star" data-theme="b">FAQ</a></li>
+                <li><a href="#contactus" data-icon="grid" data-theme="b">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
     
-    
+    <section data-role="content">
+		<form action="register.html" method="get">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required="true">
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" required="true">
+            
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required="true">
+            
+            <label for="hearaboutus">How did you hear about us?</label>
+            <select name="hearaboutus" id="hearaboutus">
+                <option value="magazine">Magazine Ad</option>
+                <option value="radio">Radio Ad</option>
+                <option value="tv">TV Ad</option>
+                <option value="word">Word of Mouth</option>
+                <option value="artist">Another Artist</option>
+            </select>
+        
+        <fieldset data-role="controlgroup">
+            <legend>What is your relationship to Solo Penguin Records?</legend>
+            <input type="checkbox" name="artist" id="artist">
+            <label for="artist">Artist</label>
+            <input type="checkbox" name="manager" id="manager">
+            <label for="manager">Manager</label>
+            <input type="checkbox" name="curious" id="curious">
+            <label for="curious">Just Curious!</label>
+        </fieldset>
+            
+            <label for="questions">Questions/Comments:</label>
+            <textarea name="questions" id="questions"></textarea>
+            
+            <input type="submit" value="Submit Form">
+                
+    	</form>
+    	</section>
+</div>
+
+<!--Submit Page-->
     
 
 </body>
