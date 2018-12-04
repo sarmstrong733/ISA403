@@ -15,11 +15,11 @@
 .topnav{
     color:black;
     text-decoration: bold;
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
     font-size:17px;
 }
 .sidenav{
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
     font-size:17px;
 }
 * {
@@ -48,7 +48,7 @@
 }
 
 body{
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
 }
 /*Thank You*/
 #thankyou{
@@ -90,7 +90,7 @@ body{
 /*Footer*/
 .page-footer{
     background-color: #ffbf00;
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
 }
 

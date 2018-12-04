@@ -15,11 +15,11 @@
 .topnav{
     color:black;
     text-decoration: bold;
-    font-family: Bahnschrift Condensed;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size:17px;
 }
 .sidenav{
-    font-family: Bahnschrift Condensed;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size:17px;
 }
 * {
@@ -48,14 +48,14 @@
 }
 #submitForm {
     color: white;
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
     padding: 10px;
 }
 
 /*Footer*/
 .page-footer{
     background-color: #ffbf00;
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
 }
 
@@ -64,7 +64,7 @@
 /* Contact Page */
 h1, h2, h5, p, form {
     text-align: center;
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
 p {
@@ -82,7 +82,7 @@ p {
 }
 
 .btn{
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
     color: white;
     margin-top: 15px;
  }

@@ -1,20 +1,20 @@
 a {
 	font-weight: bold;
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
 }
 h4 {
 	margin-top: .5em;
 	margin-bottom: .3em;
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
 
 }
 p {
 	margin-top: 0;
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
 
 }
 body{
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
 }
 #header{
     background-color: #ffbf00;

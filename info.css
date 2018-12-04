@@ -15,11 +15,11 @@
 .topnav{
     color:black;
     text-decoration: bold;
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
     font-size:17px;
 }
 .sidenav{
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
     font-size:17px;
 }
 * {
@@ -58,7 +58,7 @@
 /*Footer*/
 .page-footer{
     background-color: #ffbf00;
-    font-family:Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     clear: both;
 }
@@ -71,7 +71,7 @@
     background: black;
     opacity: .75;
     padding: 1px;
-    font-family:Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
 h2 {
@@ -80,7 +80,7 @@ h2 {
 
 .paragraph {
     text-align: center;
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
 .solo {
@@ -89,7 +89,7 @@ h2 {
 
 ul.tabs {
     color: black;
-    font-family:Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
     background-color: #ffbf00;
 }
 

@@ -15,11 +15,11 @@
 .topnav{
     color:black;
     text-decoration: bold;
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
     font-size:17px;
 }
 .sidenav{
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
     font-size:17px;
 }
 * {
@@ -51,7 +51,7 @@
 /*Footer*/
 .page-footer{
     background-color: #ffbf00;
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
 }
 
@@ -59,39 +59,39 @@
 /* FAQ Page */
 h1, h2, h5, p, form {
     text-align: center;
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
 .faq {
     color: black;
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
 .frequently {
     color: #ffbf00;
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
 .solo {
     color: #ffbf00;
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
 .material-icons {
     color: #ffbf00;   
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
 .collapsible-header:hover {
     background-color: #cecece;
     transition: background-color 700ms;
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
 }
 .collapsible-header{
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
 }
 .collapsible-body{
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
 .ui-accordion-header.ui-state-active { 
@@ -109,7 +109,7 @@ h1, h2, h5, p, form {
 }
 
 .intro{
-    font-family:bahnschrift condensed;
+font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     font-size: 115%;
 }
@@ -153,7 +153,7 @@ p {
     border: 1px solid grey;
 }
 body{
-    font-family: Bahnschrift Condensed;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
 #accordion {
